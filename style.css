@@ -1,0 +1,151 @@
+body {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: cursive;
+}
+
+h1, p {
+  text-align: center;
+  color: #fafafa;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(110, 175, 255, 0.8);
+  width: 80%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+          box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+  margin: 3rem auto;
+}
+
+.container #name-field, .container #email-field, .container #number-field, .container #dropdown, .container #textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.container #name-field label, .container #email-field label, .container #number-field label, .container #dropdown label, .container #textarea label {
+  color: #fafafa;
+  font-size: larger;
+  margin-bottom: 0.5rem;
+}
+
+.container #name-field input, .container #email-field input, .container #number-field input, .container #dropdown input, .container #textarea input {
+  display: inline-block;
+  width: 70%;
+  height: 1.5rem;
+  border-radius: 9999px;
+  border: 0;
+  -webkit-box-shadow: 10px 0 0 0 calc(2px + $tw-ring-offset-width) #14b8a6;
+          box-shadow: 10px 0 0 0 calc(2px + $tw-ring-offset-width) #14b8a6;
+}
+
+.container #dropdown select {
+  width: 70%;
+  height: 1.5rem;
+  border-radius: 9999px;
+}
+
+.container #radio-buttons, .container #checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.container #radio-buttons label, .container #checkbox label {
+  color: #fafafa;
+  font-size: larger;
+  margin-bottom: 0.5rem;
+}
+
+.container #radio-buttons .radio-buttons label, .container #radio-buttons .checkbox label, .container #checkbox .radio-buttons label, .container #checkbox .checkbox label {
+  margin-right: 1.5rem;
+}
+
+.container #textarea textarea {
+  font-family: cursive;
+  width: 70%;
+  resize: vertical;
+}
+
+.container #button button {
+  background-color: #0f766e;
+  border: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fafafa;
+  width: 150px;
+  height: 25px;
+  border-radius: 9999px;
+  letter-spacing: 0.05em;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.container #button button:hover {
+  background-color: #0d9488;
+}
+
+footer {
+  color: #fafafa;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+footer a {
+  color: #c3c3c3;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+footer a:hover {
+  color: #afafaf;
+}
+/*# sourceMappingURL=style.css.map */
